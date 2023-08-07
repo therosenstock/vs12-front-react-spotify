@@ -1,10 +1,10 @@
-import AppBar from '@mui/material/AppBar';
-import Box from '@mui/material/Box';
-import Toolbar from '@mui/material/Toolbar';
-import Typography from '@mui/material/Typography';
+import AppBar from "@mui/material/AppBar";
+import Box from "@mui/material/Box";
+import Toolbar from "@mui/material/Toolbar";
+import Typography from "@mui/material/Typography";
+import Link from "@mui/material/Link";
 
 export const Header = () => {
-
   return (
     <Box sx={{ flexGrow: 1 }}>
       <AppBar position="static">
@@ -13,12 +13,14 @@ export const Header = () => {
             variant="h6"
             noWrap
             component="div"
-            sx={{ flexGrow: 1, display: { xs: 'none', sm: 'block' } }}
+            sx={{ flexGrow: 1, display: { xs: "none", sm: "block" } }}
           >
-            TrackGroove
+            <Link href="/" underline="none" color="#fff" cursor="pointer">
+              Moonridge Music.
+            </Link>
           </Typography>
         </Toolbar>
       </AppBar>
     </Box>
   );
-}
+};
