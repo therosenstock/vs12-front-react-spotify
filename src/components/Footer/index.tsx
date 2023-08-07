@@ -17,7 +17,7 @@ export const Footer = () => {
         }}
       >
         <a target="_blank" href="https://github.com/therosenstock">
-          <GitHubIcon primary="#fff" />
+          <GitHubIcon />
         </a>
         <Typography>therosenstock &copy; 2023.</Typography>
       </Box>
