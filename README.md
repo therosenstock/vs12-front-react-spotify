@@ -40,7 +40,6 @@ npm run dev
 
 Este app é um pesquisador de artistas e álbuns, onde ao acessar as músicas, você é redirecionado ao Spotify.
 
-- Links do figma (caso tiver)
 <p align="center">
   <a href="https://www.figma.com/file/68VvVW4x1Ic5HoRuP9zHRy/Moonridge-Music?type=design&node-id=0%3A1&mode=design&t=lzncdjSermFuWYZt-1" target="_blank">➡️ Figma</a>
 </p>
