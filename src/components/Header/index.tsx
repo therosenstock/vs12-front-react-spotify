@@ -15,9 +15,7 @@ export const Header = () => {
             component="div"
             sx={{ flexGrow: 1, display: { xs: "none", sm: "block" } }}
           >
-            <Link href="/" underline="none" color="#fff" cursor="pointer">
-              Moonridge Music.
-            </Link>
+            <Link href="/">Moonridge Music.</Link>
           </Typography>
         </Toolbar>
       </AppBar>
